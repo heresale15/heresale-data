@@ -1,7 +1,7 @@
 {
  "meta": {
   "version": "2026-11-17",
-  "checkedAt": "2026-11-19",
+  "checkedAt": "2026-11-24",
   "reviewBy": "2027-01-16",
   "note": "reviewBy가 지난 항목은 앱이 자동으로 계산에서 뺍니다. 확인 후 날짜를 갱신하세요."
  },
@@ -2263,11 +2263,31 @@
    "brands": {
     "GS25": {
      "rate": 10,
-     "desc": "1,000원당 100원 (앱에서 쿠폰 발급 후 사용, 행사상품 제외)"
+     "desc": "1,000원당 100원 (앱에서 쿠폰 발급 후 사용, 행사상품 제외)",
+     "unit": "per1000",
+     "daily": 1,
+     "tiers": {
+      "VVIP": 100,
+      "VIP": 100,
+      "GOLD": 100,
+      "SILVER": 50,
+      "WHITE": 50,
+      "일반": 50
+     }
     },
     "파리바게뜨": {
      "rate": 10,
-     "desc": "1,000원당 100원 (일 1회)"
+     "desc": "1,000원당 100원 (일 1회)",
+     "unit": "per1000",
+     "daily": 1,
+     "tiers": {
+      "VVIP": 100,
+      "VIP": 100,
+      "GOLD": 100,
+      "SILVER": null,
+      "WHITE": null,
+      "일반": null
+     }
     }
    },
    "notes": {
@@ -2275,8 +2295,9 @@
     "CU": "오전 5~9시 아침 간편식만 할인",
     "롯데시네마": "월 1회 5,000원 할인 (앱 확인)"
    },
-   "checked": "2026-11-17",
-   "reviewBy": "2027-01-16"
+   "checked": "2026-11-24",
+   "reviewBy": "2027-01-16",
+   "tierSrc": "https://weolbu.com/community/2382247 (2차 자료 · KT 멤버십 앱 확인 권장)"
   },
   "SKT": {
    "name": "SKT T멤버십",
@@ -2285,47 +2306,107 @@
    "brands": {
     "CU": {
      "rate": 10,
-     "desc": "VIP·GOLD 1,000원당 100원 (SILVER 50원) · 행사상품 제외"
+     "desc": "VIP·GOLD 1,000원당 100원 (SILVER 50원) · 행사상품 제외",
+     "unit": "per1000",
+     "tiers": {
+      "VIP": 100,
+      "GOLD": 100,
+      "SILVER": 50
+     },
+     "daily": 1,
+     "accrual": true
     },
     "세븐일레븐": {
      "rate": 10,
-     "desc": "VIP·GOLD 1,000원당 100원 (SILVER 50원) · 월 한도 있음"
+     "desc": "VIP·GOLD 1,000원당 100원 (SILVER 50원) · 월 한도 있음",
+     "unit": "per1000",
+     "tiers": {
+      "VIP": 100,
+      "GOLD": 100,
+      "SILVER": 50
+     },
+     "daily": 1
     },
     "파리바게뜨": {
      "rate": 10,
-     "desc": "VIP·GOLD 1,000원당 100원 (SILVER 50원)"
+     "desc": "VIP·GOLD 1,000원당 100원 (SILVER 50원)",
+     "unit": "per1000",
+     "tiers": {
+      "VIP": 100,
+      "GOLD": 100,
+      "SILVER": 50
+     }
     },
     "아웃백스테이크하우스": {
      "rate": 15,
-     "desc": "VIP·GOLD 15% (SILVER 5%)"
+     "desc": "VIP·GOLD 15% (SILVER 5%)",
+     "unit": "pct",
+     "tiers": {
+      "VIP": 15,
+      "GOLD": 15,
+      "SILVER": 5
+     },
+     "daily": 1,
+     "accrual": true
     },
     "빕스": {
      "rate": 15,
-     "desc": "VIP·GOLD 15% (SILVER 5%)"
+     "desc": "VIP·GOLD 15% (SILVER 5%)",
+     "unit": "pct",
+     "tiers": {
+      "VIP": 15,
+      "GOLD": 15,
+      "SILVER": 5
+     }
     },
     "도미노피자": {
      "rate": 20,
-     "desc": "GOLD·SILVER 20% (VIP 30%)"
+     "desc": "GOLD·SILVER 20% (VIP 30%)",
+     "unit": "pct",
+     "tiers": {
+      "VIP": 30,
+      "GOLD": 20,
+      "SILVER": 20
+     }
     },
     "피자헛": {
      "rate": 20,
-     "desc": "GOLD·SILVER 20% (VIP 30%)"
+     "desc": "GOLD·SILVER 20% (VIP 30%)",
+     "unit": "pct",
+     "tiers": {
+      "VIP": 30,
+      "GOLD": 20,
+      "SILVER": 20
+     }
     },
     "메가MGC커피": {
      "rate": 10,
-     "desc": "GOLD·SILVER 10% (VIP 20%)"
+     "desc": "GOLD·SILVER 10% (VIP 20%)",
+     "unit": "pct",
+     "tiers": {
+      "VIP": 20,
+      "GOLD": 10,
+      "SILVER": 10
+     }
     },
     "더벤티": {
      "rate": 10,
-     "desc": "전 등급 10%"
+     "desc": "전 등급 10%",
+     "unit": "pct",
+     "tiers": {
+      "VIP": 10,
+      "GOLD": 10,
+      "SILVER": 10
+     }
     }
    },
    "notes": {
     "GS25": "매주 화요일 도시락 등 일부 상품만 할인",
     "배스킨라빈스": "품목 한정 할인 (앱 확인)"
    },
-   "checked": "2026-11-17",
-   "reviewBy": "2027-01-16"
+   "checked": "2026-11-24",
+   "reviewBy": "2027-01-16",
+   "tierSrc": "https://m.tworld.co.kr/membership/benefit/brand"
   },
   "LGU": {
    "name": "LG U+ 멤버십",
@@ -2334,18 +2415,26 @@
    "brands": {
     "GS25": {
      "rate": 10,
-     "desc": "1,000원당 최대 100원 (등급별 차등)"
+     "desc": "1,000원당 최대 100원 (등급별 차등)",
+     "unit": "per1000",
+     "daily": 1,
+     "tiers": {
+      "VVIP": 100,
+      "VIP": 100,
+      "우수": 50
+     }
     }
    },
    "notes": {
     "CGV": "전 등급 2D 영화 최대 4,000원 할인쿠폰 월 1회 (2026.1.1 변경, U+ 공지) · VIP콕 선택 시 무료·1+1 예매",
     "CU": "U+ 멤버십 상시 할인 없음"
    },
-   "checked": "2026-11-17",
+   "checked": "2026-11-24",
    "reviewBy": "2027-01-16",
    "notesSrc": {
     "CGV": "https://www.lguplus.com/support/service/notice/membership/2419"
-   }
+   },
+   "tierSrc": "https://weolbu.com/community/2382247 (2차 자료 · U+멤버십 앱 확인 권장)"
   }
  },
  "events": {
