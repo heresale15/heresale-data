@@ -1,0 +1,7 @@
+// 여긴할인 앱 사이트 — Cloudflare Workers Builds가 이 폴더를 자동 배포
+// 지역화폐 가맹점 파일(kc)은 용량이 커서 따로: https://heresale-kc.hsy015.workers.dev
+{
+  "name": "heresale",
+  "compatibility_date": "2026-11-20",
+  "assets": { "directory": "./web" }
+}
