@@ -1,0 +1,341 @@
+{
+ "meta": {
+  "note": "혜택 미확인 카드 이름 목록(실제 상품명 확인분). 혜택이 확인되면 benefits.json cards로 옮기세요.",
+  "checked": "2026-11-17",
+  "note2": "generic=true: 카드 상품명을 모를 때 고르는 \"기본\" 항목. 혜택은 사용자가 직접 넣음."
+ },
+ "cards": [
+  {
+   "id": "cat_012",
+   "issuer": "KB국민카드",
+   "type": "신용카드",
+   "name": "KB국민 My WE:SH+ 카드",
+   "src": "https://www.card-gorilla.com/contents/detail/4101",
+   "infoUrl": "https://search.naver.com/search.naver?query=KB%EA%B5%AD%EB%AF%BC%20My%20WE%3ASH%2B%20%EC%B9%B4%EB%93%9C"
+  },
+  {
+   "id": "cat_016",
+   "issuer": "KB국민카드",
+   "type": "신용카드",
+   "name": "KB ALL 카드",
+   "src": "https://www.card-gorilla.com/contents/detail/4195",
+   "infoUrl": "https://search.naver.com/search.naver?query=KB%20ALL%20%EC%B9%B4%EB%93%9C"
+  },
+  {
+   "id": "cat_023",
+   "issuer": "KB국민카드",
+   "type": "체크카드",
+   "name": "토심이 첵첵 체크카드",
+   "src": "https://www.card-gorilla.com/contents/detail/2108",
+   "infoUrl": "https://search.naver.com/search.naver?query=%ED%86%A0%EC%8B%AC%EC%9D%B4%20%EC%B2%B5%EC%B2%B5%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C"
+  },
+  {
+   "id": "cat_029",
+   "issuer": "현대카드",
+   "type": "신용카드",
+   "name": "the Orange",
+   "src": "https://www.card-gorilla.com/contents/detail/3928",
+   "infoUrl": "https://search.naver.com/search.naver?query=the%20Orange"
+  },
+  {
+   "id": "cat_036",
+   "issuer": "롯데카드",
+   "type": "신용카드",
+   "name": "디지로카 London",
+   "src": "https://www.card-gorilla.com/contents/detail/3931",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EB%94%94%EC%A7%80%EB%A1%9C%EC%B9%B4%20London"
+  },
+  {
+   "id": "cat_043",
+   "issuer": "우리카드",
+   "type": "체크카드",
+   "name": "네이버페이 우리카드 체크",
+   "src": "https://www.card-gorilla.com/contents/detail/2131",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EB%84%A4%EC%9D%B4%EB%B2%84%ED%8E%98%EC%9D%B4%20%EC%9A%B0%EB%A6%AC%EC%B9%B4%EB%93%9C%20%EC%B2%B4%ED%81%AC"
+  },
+  {
+   "id": "cat_044",
+   "issuer": "하나카드",
+   "type": "신용카드",
+   "name": "MOVING카드 ALLDAY모드",
+   "src": "https://www.card-gorilla.com/contents/detail/4218",
+   "infoUrl": "https://search.naver.com/search.naver?query=MOVING%EC%B9%B4%EB%93%9C%20ALLDAY%EB%AA%A8%EB%93%9C"
+  },
+  {
+   "id": "cat_048",
+   "issuer": "NH농협카드",
+   "type": "신용카드",
+   "name": "올바른 NEW HAVE카드",
+   "src": "https://www.card-gorilla.com/contents/detail/2183",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%98%AC%EB%B0%94%EB%A5%B8%20NEW%20HAVE%EC%B9%B4%EB%93%9C"
+  },
+  {
+   "id": "cat_052",
+   "issuer": "IBK기업은행",
+   "type": "신용카드",
+   "name": "IBK포인트(신용)",
+   "src": "https://www.card-gorilla.com/contents/detail/2173",
+   "infoUrl": "https://search.naver.com/search.naver?query=IBK%ED%8F%AC%EC%9D%B8%ED%8A%B8%28%EC%8B%A0%EC%9A%A9%29"
+  },
+  {
+   "id": "cat_055",
+   "issuer": "BC카드",
+   "type": "신용카드",
+   "name": "BC 바로 케이뱅크 히든카드",
+   "src": "https://www.card-gorilla.com/contents/detail/4195",
+   "infoUrl": "https://search.naver.com/search.naver?query=BC%20%EB%B0%94%EB%A1%9C%20%EC%BC%80%EC%9D%B4%EB%B1%85%ED%81%AC%20%ED%9E%88%EB%93%A0%EC%B9%B4%EB%93%9C"
+  },
+  {
+   "id": "gen_01",
+   "issuer": "카카오뱅크",
+   "type": "체크카드",
+   "name": "카카오뱅크 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%B9%B4%EC%B9%B4%EC%98%A4%EB%B1%85%ED%81%AC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_02",
+   "issuer": "토스뱅크",
+   "type": "체크카드",
+   "name": "토스뱅크 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%ED%86%A0%EC%8A%A4%EB%B1%85%ED%81%AC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_03",
+   "issuer": "케이뱅크",
+   "type": "체크카드",
+   "name": "케이뱅크 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%BC%80%EC%9D%B4%EB%B1%85%ED%81%AC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_04",
+   "issuer": "NH농협카드",
+   "type": "체크카드",
+   "name": "NH농협 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=NH%EB%86%8D%ED%98%91%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_05",
+   "issuer": "NH농협카드",
+   "type": "신용카드",
+   "name": "NH농협 신용카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=NH%EB%86%8D%ED%98%91%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_06",
+   "issuer": "지역농협·축협",
+   "type": "체크카드",
+   "name": "지역농협 체크카드(BC)",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%A7%80%EC%97%AD%EB%86%8D%ED%98%91%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%28BC%29%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_07",
+   "issuer": "BC카드",
+   "type": "신용카드",
+   "name": "BC 바로카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=BC%20%EB%B0%94%EB%A1%9C%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_08",
+   "issuer": "우체국",
+   "type": "체크카드",
+   "name": "우체국 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%B2%B4%EA%B5%AD%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_09",
+   "issuer": "새마을금고",
+   "type": "체크카드",
+   "name": "MG새마을금고 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=MG%EC%83%88%EB%A7%88%EC%9D%84%EA%B8%88%EA%B3%A0%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_10",
+   "issuer": "신협",
+   "type": "체크카드",
+   "name": "신협 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%98%91%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_11",
+   "issuer": "KB국민카드",
+   "type": "체크카드",
+   "name": "KB국민 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=KB%EA%B5%AD%EB%AF%BC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_12",
+   "issuer": "KB국민카드",
+   "type": "신용카드",
+   "name": "KB국민 신용카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=KB%EA%B5%AD%EB%AF%BC%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_13",
+   "issuer": "신한카드",
+   "type": "체크카드",
+   "name": "신한 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%95%9C%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_14",
+   "issuer": "신한카드",
+   "type": "신용카드",
+   "name": "신한 신용카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%8B%A0%ED%95%9C%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_15",
+   "issuer": "우리카드",
+   "type": "체크카드",
+   "name": "우리 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_16",
+   "issuer": "하나카드",
+   "type": "체크카드",
+   "name": "하나 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%ED%95%98%EB%82%98%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_17",
+   "issuer": "IBK기업은행",
+   "type": "체크카드",
+   "name": "IBK 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=IBK%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_18",
+   "issuer": "삼성카드",
+   "type": "신용카드",
+   "name": "삼성 신용카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%82%BC%EC%84%B1%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_19",
+   "issuer": "현대카드",
+   "type": "신용카드",
+   "name": "현대 신용카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%ED%98%84%EB%8C%80%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_20",
+   "issuer": "롯데카드",
+   "type": "신용카드",
+   "name": "롯데 신용카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EB%A1%AF%EB%8D%B0%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_21",
+   "issuer": "수협은행",
+   "type": "체크카드",
+   "name": "수협 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%88%98%ED%98%91%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_22",
+   "issuer": "SC제일은행",
+   "type": "체크카드",
+   "name": "SC제일 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=SC%EC%A0%9C%EC%9D%BC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_23",
+   "issuer": "iM뱅크",
+   "type": "체크카드",
+   "name": "iM뱅크 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=iM%EB%B1%85%ED%81%AC%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_24",
+   "issuer": "BNK부산은행",
+   "type": "체크카드",
+   "name": "부산은행 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EB%B6%80%EC%82%B0%EC%9D%80%ED%96%89%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_25",
+   "issuer": "BNK경남은행",
+   "type": "체크카드",
+   "name": "경남은행 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EA%B2%BD%EB%82%A8%EC%9D%80%ED%96%89%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_26",
+   "issuer": "광주은행",
+   "type": "체크카드",
+   "name": "광주은행 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EA%B4%91%EC%A3%BC%EC%9D%80%ED%96%89%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_27",
+   "issuer": "전북은행",
+   "type": "체크카드",
+   "name": "전북은행 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%A0%84%EB%B6%81%EC%9D%80%ED%96%89%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  },
+  {
+   "id": "gen_28",
+   "issuer": "제주은행",
+   "type": "체크카드",
+   "name": "제주은행 체크카드",
+   "generic": true,
+   "src": "",
+   "infoUrl": "https://search.naver.com/search.naver?query=%EC%A0%9C%EC%A3%BC%EC%9D%80%ED%96%89%20%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C%20%ED%98%9C%ED%83%9D"
+  }
+ ]
+}

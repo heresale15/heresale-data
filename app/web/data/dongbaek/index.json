@@ -1,0 +1,83 @@
+{
+ "id": "dongbaek",
+ "label": "동백전",
+ "region": "부산",
+ "basis": "2026-04-24",
+ "builtAt": "2026-11-19",
+ "count": 133445,
+ "skipped": {
+  "noName": 65,
+  "otherRegion": 267,
+  "noSgg": 1,
+  "taxi": 29198,
+  "noNumber": 446
+ },
+ "streetOnly": 9994,
+ "source": "https://www.data.go.kr/data/15088786/fileData.do",
+ "gus": {
+  "강서구": {
+   "file": "g001.json",
+   "n": 2486
+  },
+  "금정구": {
+   "file": "g002.json",
+   "n": 4433
+  },
+  "기장군": {
+   "file": "g003.json",
+   "n": 2976
+  },
+  "남구": {
+   "file": "g004.json",
+   "n": 3282
+  },
+  "동구": {
+   "file": "g005.json",
+   "n": 2061
+  },
+  "동래구": {
+   "file": "g006.json",
+   "n": 4755
+  },
+  "부산진구": {
+   "file": "g007.json",
+   "n": 6623
+  },
+  "북구": {
+   "file": "g008.json",
+   "n": 2989
+  },
+  "사상구": {
+   "file": "g009.json",
+   "n": 3399
+  },
+  "사하구": {
+   "file": "g010.json",
+   "n": 4178
+  },
+  "서구": {
+   "file": "g011.json",
+   "n": 1934
+  },
+  "수영구": {
+   "file": "g012.json",
+   "n": 3666
+  },
+  "연제구": {
+   "file": "g013.json",
+   "n": 3493
+  },
+  "영도구": {
+   "file": "g014.json",
+   "n": 1872
+  },
+  "중구": {
+   "file": "g015.json",
+   "n": 2421
+  },
+  "해운대구": {
+   "file": "g016.json",
+   "n": 4154
+  }
+ }
+}

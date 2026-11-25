@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>여긴할인 개인정보 및 위치정보 처리방침</title>
+  <style>
+    body { font-family: 'Apple SD Gothic Neo', 'Noto Sans KR', sans-serif; background: #f8fafc; color: #0f172a; margin: 0; padding: 32px 16px; line-height: 1.7; }
+    main { max-width: 760px; margin: 0 auto; background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 28px; }
+    h1 { font-size: 22px; margin: 0 0 4px; }
+    h2 { font-size: 16px; margin: 28px 0 8px; }
+    p, li { font-size: 14px; color: #334155; }
+    .meta { font-size: 12px; color: #64748b; }
+    .todo { background: #fef3c7; padding: 2px 6px; border-radius: 4px; }
+    table { border-collapse: collapse; width: 100%; font-size: 13px; }
+    th, td { border: 1px solid #e2e8f0; padding: 8px; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; }
+    a.back { display: inline-block; margin-top: 12px; font-size: 13px; }
+    .topnav { position: sticky; top: 0; z-index: 5; background: #fff; border-bottom: 1px solid #e2e8f0; margin: -32px -16px 20px; padding: 10px 16px; }
+    .topnav a { display: inline-flex; align-items: center; gap: 6px; min-height: 40px; font-weight: 700; color: #0f172a; text-decoration: none; font-size: 15px; }
+  </style>
+</head>
+<body>
+<nav class="topnav"><a href="/" onclick="if(history.length>1&&document.referrer.indexOf(location.host)>-1){history.back();return false}">← 여긴할인으로 돌아가기</a></nav>
+<main>
+  <h1>여긴할인 개인정보 및 위치정보 처리방침</h1>
+  <p class="meta">시행일: 2026년 11월 19일 · 서비스 주소: https://heresale.hsy015.workers.dev/ · 운영: 여긴할인 (사업자 등록 전, 개인 운영)</p>
+
+  <h2>1. 처리하는 정보와 목적</h2>
+  <table>
+    <tr><th>항목</th><th>목적</th><th>저장 위치·기간</th></tr>
+    <tr><td>현재 위치(위도·경도) — 사용자가 [내 위치로 찾기]를 누르거나 앱이 위치를 요청하고 사용자가 허용한 경우</td><td>주변 매장 검색, 동네 이름 표시</td><td>운영자 서버에 저장하지 않음. 검색할 때 아래 2번의 검색 회사로 보내고, 마지막으로 본 위치는 사용자 기기에만 저장</td></tr>
+    <tr><td>사용자가 입력한 동네·매장 검색어</td><td>매장 검색</td><td>운영자 서버에 저장하지 않음</td></tr>
+    <tr><td>선택한 통신사, 고른 간편결제 종류, 등록한 카드, 카드별 지난달 실적 표시, 카드 결제 조건(예: KB Pay 사용), 직접 고친 남은 한도, 직접 입력한 할인율, 사용하는 지역화폐, 직접 남긴 결제 기록(매장명·금액·결제수단·할인액), ⭐ 자주 가는 곳, 매장별 '써 봤어요' 표시, 최근 매장 검색 결과(20분)</td><td>할인 계산</td><td>사용자 기기의 브라우저 저장소(localStorage)에만 저장. 사용자가 지울 때까지</td></tr>
+    <tr><td>익명 사용 통계 — 어떤 기능을 눌렀는지(예: 앱 열기, 검색, 매장 열기와 그 매장의 브랜드·업종 이름, 카드 직접 추가 여부)와 웹/앱 구분. 위치·검색어·카드 이름·기기 식별값은 보내지 않음</td><td>많이 쓰는 기능 파악·서비스 개선</td><td>운영자 서버(Cloudflare)에 날짜별 합계 숫자로만 저장, 90일 후 삭제. <b>기본은 보내지 않음.</b> 사용자가 처음 설정 화면이나 [내 지갑] 맨 아래 「익명 사용 통계 보내기 (선택)」를 직접 켠 경우에만 보내며, 언제든 끌 수 있음. 운영자 서버를 아직 열지 않은 동안에는 보내지 않음</td></tr>
+    <tr><td>틀린 정보 제보 — 사용자가 메일 앱으로 직접 보낸 메일(보낸 사람 메일 주소, 매장 이름·주소, 제보 내용)</td><td>혜택·매장 정보 수정</td><td>운영자 메일함(heresale15@gmail.com). 처리 완료 후 1년 이내 삭제</td></tr>
+  </table>
+  <p>이 서비스는 회원 가입이 없고 이름, 전화번호, 카드번호, 실제 결제 내역을 받지 않습니다. 본인인증이나 마이데이터 조회 기능은 없습니다. 위치 정보는 백그라운드에서 수집하지 않습니다.</p>
+
+  <h2>2. 외부로 전송되는 정보 (처리위탁·제3자 제공·국외 이전)</h2>
+  <table>
+    <tr><th>받는 곳 (위치)</th><th>전송 정보</th><th>목적</th></tr>
+    <tr><td>카카오 (대한민국) — 카카오 로컬 API</td><td>위치 좌표 또는 검색 영역, 검색어 (운영자 서버를 연 뒤에는 운영자 서버(Cloudflare)를 거쳐 전달되며, 운영자 서버는 이를 저장하지 않음)</td><td>주변 매장 검색, 동네 이름 표시</td></tr>
+    <tr><td>카카오 (대한민국) — 카카오맵 지도 (JavaScript SDK)</td><td>보고 있는 지도 영역, 접속 IP 등 일반 접속 정보</td><td>지도 표시 (기본 지도)</td></tr>
+    <tr><td>OpenStreetMap 재단 (영국 등 국외) — 대체 지도 그림, Nominatim 주소 변환</td><td>카카오 지도·검색이 실패했을 때만: 보고 있는 지도 영역, 위치 좌표·검색어, 접속 IP</td><td>대체 지도 표시, 주소 변환</td></tr>
+    <tr><td>Overpass API 운영자 (독일 등 국외, overpass-api.de·overpass.kumi.systems)</td><td>검색 영역(위치 주변 좌표 범위), 접속 IP</td><td>카카오 검색 실패 시 대체 매장 검색</td></tr>
+    <tr><td>Cloudflare (미국 등 국외)</td><td>접속 IP, 방문한 페이지 주소, 브라우저 종류 (위치 좌표·쿠키는 보내지 않음)</td><td>웹사이트 호스팅, 방문자 수 통계(Web Analytics)</td></tr>
+    <tr><td>unpkg.com (국외 콘텐츠 전송망)</td><td>카카오 지도가 실패했을 때만: 접속 IP 등 일반 접속 정보</td><td>대체 지도 프로그램(Leaflet) 파일 불러오기</td></tr>
+    <tr><td>Google (미국, Gmail)</td><td>사용자가 직접 보낸 제보 메일</td><td>제보 받기</td></tr>
+    <tr><td>네이버 지도·카카오맵 (사용자가 길찾기·지도 링크를 누른 경우)</td><td>매장 이름·좌표</td><td>길찾기</td></tr>
+  </table>
+  <p>국외로 가는 정보는 사용자가 지도·검색·제보 기능을 쓸 때 인터넷 통신으로 그때그때 전송되며, 각 회사의 보관 기간은 그 회사의 정책을 따릅니다. 광고나 제휴 링크를 추가하면 그 업체와 전송 정보를 이 표에 추가하고 시행일을 바꿉니다.</p>
+
+  <h2>3. 위치정보 이용</h2>
+  <ul>
+    <li>위치 권한은 브라우저(또는 앱) 설정에서 언제든지 끌 수 있고, 꺼도 동네 이름 검색으로 이용할 수 있습니다.</li>
+    <li>운영자는 개인위치정보를 서버에 저장하지 않으며, 위치 이용·제공 사실 확인자료도 운영자 서버에 남지 않습니다.</li>
+    <li>위치기반서비스사업 신고: 신고 전입니다. 사업자 등록 후 방송미디어통신위원회에 신고하고, 신고번호를 이곳에 적겠습니다.</li>
+    <li>위치정보 이용약관: <a href="/location-terms.html">위치기반서비스 이용약관 보기</a></li>
+  </ul>
+
+  <h2>4. 이용자의 권리와 삭제 방법</h2>
+  <p>[내 지갑]의 [📦 백업 저장]은 이 기기 정보를 파일·코드로 만들어 사용자가 직접 보관하는 기능이며, 운영자 서버로 보내지 않습니다. 기기에 저장된 정보는 앱의 [내 지갑] 맨 아래 <b>[🗑 내 지갑 비우기]</b> 버튼이나 브라우저의 사이트 데이터 삭제로 한 번에 지울 수 있습니다. 결제 기록은 [내 지갑]의 결제 기록에서 하나씩 고치거나(✎) 지울(✕) 수 있습니다. 보낸 제보의 삭제를 원하면 아래 메일로 요청해 주세요.</p>
+
+  <h2>5. 개인정보 보호책임자·연락처</h2>
+  <p>여긴할인 운영자 · 이메일 heresale15@gmail.com</p>
+  <p>개인정보 침해 신고: 개인정보침해신고센터(국번 없이 118), 개인정보분쟁조정위원회(1833-6972)</p>
+
+  <h2>6. 바뀐 내용</h2>
+  <p>2026-11-23: 익명 사용 통계를 '기본 켜짐'에서 '사용자가 직접 켠 경우에만 보냄(기본 꺼짐)'으로 바꿨습니다. 서비스 이용약관 페이지를 추가했습니다.</p>
+  <p>2026-11-19(3): 익명 사용 통계(끄기 가능)와 매장 검색을 운영자 서버를 거쳐 보내는 방식을 추가했습니다. 이 내용은 운영자 서버를 연 날부터 적용됩니다.</p>
+  <p>2026-11-19(2): 기본 지도를 카카오맵으로 바꾸고, OpenStreetMap·unpkg는 카카오 지도가 실패할 때만 쓰도록 고쳤습니다. 내 지갑에 고른 간편결제 종류와 백업 기능을 반영했습니다.</p>
+  <p>2026-11-19: 제보 방식을 이메일로 바꾸고(제보 데이터베이스 미사용), 국외 이전 항목·삭제 방법·연락처를 실제 운영 방식에 맞게 고쳤습니다.</p>
+
+  <a class="back" href="/index.html">← 앱으로 돌아가기</a>
+</main>
+</body>
+</html>

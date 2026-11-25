@@ -1,0 +1,3 @@
+# GitHub 저장소를 Netlify에 연결하면 push할 때마다 자동 배포됩니다.
+[build]
+  publish = "."

@@ -1,0 +1,93 @@
+{
+ "id": "onnuri",
+ "type": "name",
+ "label": "온누리상품권",
+ "basis": "2026-07-31",
+ "builtAt": "2026-11-19",
+ "count": 225384,
+ "paperOnly": 15055,
+ "source": "https://www.data.go.kr/data/3060079/fileData.do",
+ "note": "원본에 상세 주소가 없어 시·도 + 가게 이름 + 소속 시장으로 확인",
+ "gus": {
+  "강원": {
+   "file": "gangwon.json",
+   "n": 7509,
+   "markets": 121
+  },
+  "경기": {
+   "file": "gyeonggi.json",
+   "n": 28655,
+   "markets": 502
+  },
+  "경남": {
+   "file": "gyeongnam.json",
+   "n": 9378,
+   "markets": 192
+  },
+  "경북": {
+   "file": "gyeongbuk.json",
+   "n": 10058,
+   "markets": 203
+  },
+  "대구": {
+   "file": "daegu.json",
+   "n": 10828,
+   "markets": 240
+  },
+  "대전": {
+   "file": "daejeon.json",
+   "n": 8991,
+   "markets": 151
+  },
+  "부산": {
+   "file": "busan.json",
+   "n": 11929,
+   "markets": 277
+  },
+  "서울": {
+   "file": "seoul.json",
+   "n": 27239,
+   "markets": 584
+  },
+  "세종": {
+   "file": "sejong.json",
+   "n": 4505,
+   "markets": 61
+  },
+  "울산": {
+   "file": "ulsan.json",
+   "n": 5687,
+   "markets": 133
+  },
+  "인천": {
+   "file": "incheon.json",
+   "n": 7460,
+   "markets": 130
+  },
+  "전남광주": {
+   "file": "jngj.json",
+   "n": 42923,
+   "markets": 915
+  },
+  "전북": {
+   "file": "jeonbuk.json",
+   "n": 10170,
+   "markets": 200
+  },
+  "제주": {
+   "file": "jeju.json",
+   "n": 3297,
+   "markets": 58
+  },
+  "충남": {
+   "file": "chungnam.json",
+   "n": 8470,
+   "markets": 141
+  },
+  "충북": {
+   "file": "chungbuk.json",
+   "n": 5182,
+   "markets": 90
+  }
+ }
+}

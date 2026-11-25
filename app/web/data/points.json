@@ -1,0 +1,67 @@
+{
+ "meta": {
+  "version": "2026-11-23",
+  "checkedAt": "2026-11-23",
+  "note": "카드 포인트를 매장에서 결제 금액 일부로 쓸 수 있는 곳(할인이 아니라 모아 둔 포인트 사용). reviewBy가 지나면 앱이 자동으로 숨김. 매주 예약 작업이 공식 자료로 확인·추가."
+ },
+ "programs": [
+  {
+   "id": "hyundai_m",
+   "name": "현대카드 M포인트",
+   "issuer": "현대카드",
+   "cards": [
+    "hyundai_m",
+    "hyundai_zero3_point",
+    "hyundai_green4"
+   ],
+   "howTo": "결제할 때 직원에게 \"M포인트 쓸게요\"라고 말하고 대상 현대카드로 결제 (1,000P부터 사용). 현대카드 앱에서 M포인트 자동사용을 신청하면 말하지 않아도 자동 차감되는 매장도 있어요.",
+   "balanceHint": "보유 M포인트: 현대카드 앱 > 메뉴 > 혜택 안내 > 보유 포인트",
+   "merchants": {
+    "투썸플레이스": {
+     "rate": 50,
+     "note": "매장·키오스크 주문 최대 50% (투썸하트 앱 주문·케이크 예약은 최대 60%) · 12월 31일까지 · 공항·휴게소·병원·마트·CGV 등 일부 특수 매장 제외",
+     "src": "https://www.newswire.co.kr/newsRead.php?no=1047602",
+     "checked": "2026-11-23",
+     "reviewBy": "2026-12-23",
+     "end": "2026-12-31",
+     "srcType": "보도자료"
+    },
+    "아웃백스테이크하우스": {
+     "rate": 20,
+     "note": "매주 목요일은 50%, 그 외 요일 20% · 딜리버리 전용 매장 제외",
+     "src": "https://card.hyundaicard.com/magazine/%EC%95%84%EC%9B%83%EB%B0%B1-%ED%95%A0%EC%9D%B8-%EC%B9%B4%EB%93%9C-%EC%97%86%EC%9D%B4-%EC%B5%9C%EB%8C%80-50-%EC%A0%80%EB%A0%B4%ED%95%98%EA%B2%8C-%EC%9D%B4%EC%9A%A9%ED%95%98%EB%8A%94-tip.hdc",
+     "checked": "2026-11-23",
+     "reviewBy": "2026-12-23",
+     "days": {
+      "4": 50
+     },
+     "srcType": "공식"
+    },
+    "GS25": {
+     "rate": 20,
+     "note": "결제 금액의 20% · 현대카드 앱에서 자동사용 신청 가능",
+     "src": "https://v.daum.net/v/0edSwCSg6k",
+     "checked": "2025-02-24",
+     "reviewBy": "2026-12-07",
+     "srcType": "2차 자료"
+    },
+    "세븐일레븐": {
+     "rate": 20,
+     "note": "결제 금액의 20% · 자동사용 신청 가능",
+     "src": "https://v.daum.net/v/0edSwCSg6k",
+     "checked": "2025-02-24",
+     "reviewBy": "2026-12-07",
+     "srcType": "2차 자료"
+    },
+    "폴바셋": {
+     "rate": 20,
+     "note": "결제 금액의 20% · 자동사용 신청 가능",
+     "src": "https://v.daum.net/v/0edSwCSg6k",
+     "checked": "2025-02-24",
+     "reviewBy": "2026-12-07",
+     "srcType": "2차 자료"
+    }
+   }
+  }
+ ]
+}
